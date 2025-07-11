@@ -56,19 +56,19 @@ The Boruta-selected feature set achieved the highest accuracy and lowest Out-of-
 | Gini | 0.83 | 0.17 |
 | Filtered | 0.78 | 0.22 |
 
-*Full details are available in [`results/ModelComparison.csv`](results/ModelComparison.csv).*
+*Full details are available in [`results_final/ModelComparison.csv`](results/ModelComparison.csv).*
 
 ### ROC Curve Comparison
 
 ROC curves illustrate the superior classification performance of the Boruta and RFECV models.
 
-![ROC Curve Comparison](results/ROC_Curve_Comparison.pdf)
+![ROC Curve Comparison](results_final/ROC_Curve_Comparison.pdf)
 
 ### Feature Inclusion Heatmap
 
 This heatmap shows the consensus of selected genes across different methods. Genes selected by multiple methods (darker cells) are stronger candidates for being true biomarkers.
 
-![Feature Inclusion Heatmap](results/FeatureInclusion_Heatmap.pdf)
+![Feature Inclusion Heatmap](results_final/FeatureInclusion_Heatmap.pdf)
 
 ---
 
@@ -76,7 +76,7 @@ This heatmap shows the consensus of selected genes across different methods. Gen
 
 Genes selected by two or more methods are compiled into a single file to facilitate biological interpretation.
 
-📁 **Find the list here: [`results/SharedGenes_MultiSelection.csv`](results/SharedGenes_MultiSelection.csv)**
+📁 **Find the list here: [`results/SharedGenes_MultiSelection.csv`](results_final/SharedGenes_MultiSelection.csv)**
 
 These consensus genes are ideal candidates for:
 -   Gene Ontology (GO) and pathway enrichment analysis.
