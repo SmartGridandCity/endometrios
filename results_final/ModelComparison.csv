@@ -1,0 +1,7 @@
+"Method","Accuracy","OOB_Error"
+"Basic",0.778,0.222
+"RFECV",0.778,0.222
+"Gini",0.833,0.167
+"Lasso",1,0
+"Boruta",0.889,0.111
+"Filter",0.722,0.278

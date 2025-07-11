@@ -1,0 +1,29 @@
+Confusion Matrix - Basic 
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Ectopic Eutopic
+   Ectopic       7       2
+   Eutopic       2       7
+                                          
+               Accuracy : 0.7778          
+                 95% CI : (0.5236, 0.9359)
+    No Information Rate : 0.5             
+    P-Value [Acc > NIR] : 0.01544         
+                                          
+                  Kappa : 0.5556          
+                                          
+ Mcnemar's Test P-Value : 1.00000         
+                                          
+            Sensitivity : 0.7778          
+            Specificity : 0.7778          
+         Pos Pred Value : 0.7778          
+         Neg Pred Value : 0.7778          
+             Prevalence : 0.5000          
+         Detection Rate : 0.3889          
+   Detection Prevalence : 0.5000          
+      Balanced Accuracy : 0.7778          
+                                          
+       'Positive' Class : Ectopic         
+                                          
